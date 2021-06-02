@@ -5,9 +5,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <!-- Brand -->
+      
+
+
+
     <a class="navbar-brand pt-0" href="">
-      <span style=" font-family: 'Nunito', sans-serif;color:; #f8f9fa;font-size=25px;">
-        <i class="fas fa-shield-alt"></i> Secupass </span>
+   
+      Strathmore Password <br> Manager 
     </a>
     <!-- User -->
     <ul class="nav align-items-center d-md-none">

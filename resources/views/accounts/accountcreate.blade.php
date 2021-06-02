@@ -55,7 +55,7 @@
                     <span class="input-group-text"><i class="ni ni-key-25"></i></span>
                   </div>
                   <input class="form-control" placeholder="Account Login Password" type="text" name="login_password" value="{{old('login_password')}}" id="new_login_password" required="">
-                  <button type="button" class="btn btn-sm random" name="random" id="random">Generate</button>
+ 
                 </div>
               </div>
               <div class="form-group mb-3">

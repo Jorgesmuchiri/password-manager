@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Secupass</title>
+  <title>Strathmore Password Manager</title>
   <link href="{{ asset('assets') }}/favicon.svg" rel="icon" type="image/svg">
 
   <!-- Fonts -->
@@ -14,7 +14,7 @@
   <style>
     html,
     body {
-      background-color: #343a40;
+      background-color:#344f9f;
       color: #f8f9fa;
       font-family: 'Nunito', sans-serif;
       font-weight: 200;
@@ -74,16 +74,16 @@
 <body>
   <div class="flex-center position-ref full-height"> @if (Route::has('login')) <div class="top-right links"> @auth <a href="{{ url('/dashboard') }}" style="font-size:15px;">Dashboard</a> @else <a href="{{ route('login') }}" style="font-size:15px;color:#fff;">Login</a> @if (Route::has('register')) <a href="{{ route('register') }}" style="font-size:15px; color:#fff;" >Register</a> @endif @endauth </div> @endif <div class="content">
       <div class="title m-b-md">
-        <i class="fas fa-shield-alt"></i> Secupass </div>
       <div>
-        <h3> Password Manager Application</h3>
+      <img src ="https://strathmore.edu/wp-content/themes/michigan/images/logo.png">
+        <h3> Strathmore Password Manager Application</h3>
       </div>
-      <div class="links">
+      <!-- <div class="links">
         <a href="https://github.com/pushpak1300/Secupass" target="_blank">
           <i class="fab fa-github"></i>
           <b>GitHub</b>
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </body>

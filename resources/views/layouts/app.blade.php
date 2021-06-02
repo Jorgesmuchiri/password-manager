@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>{{ config('app.name', 'Laravel') }}</title>
+  <title>{{ config('app.name', 'Strathmore Password Manager Application') }}</title>
 
   <link href="{{ asset('assets') }}/favicon.svg" rel="icon" type="image/svg">
   <!-- Scripts -->
@@ -20,7 +20,7 @@
   <style>
     html,
     body {
-      background-color: #343a40;
+      background-color: #344f9f;
       color: #f8f9fa;
       font-family: 'Nunito', sans-serif;
       font-weight: 200;
@@ -32,7 +32,7 @@
 
 <body>
   <div id="app">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
           <i class="fas fa-shield-alt"></i> 
